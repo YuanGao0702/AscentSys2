@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="gb2312"></constant>
+
+	<package name="struts2" extends="struts-default">
+
+		<global-results>
+			<result name="error">/error.jsp</result>
+		</global-results>
+		<global-exception-mappings>
+			<exception-mapping result="error" exception="java.lang.Exception"></exception-mapping>
+		</global-exception-mappings>
+		
+		
+		<action name="user" class="useraction">
+			<result name="regis">/product/regist_succ.jsp</result>
+			<result name="finduser">/product/updateproductuser.jsp</result>
+			<result name="update">/product/products_showusers.jsp</result>
+			<result name="updatesuper">/product/products_showusers.jsp</result>
+			<result name="delsuser">/product/products_showusers.jsp</result>
+			<result name="all">/product/products_showusers.jsp</result>
+			<result name="error"></result>
+			<result name="input">/product/register.jsp</result>
+		</action>
+
+		<action name="login" class="loginaction">
+			<result name="user">/product/products.jsp</result>
+			<result name="admin">/product/products_showusers.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+
+		<action name="product" class="productaction">
+			<result name="user_all">/product/products_show.jsp</result>
+			<result name="admin_all">/product/admin_products_show.jsp</result>
+			<result name="visitor_all">/product/products_show.jsp</result>
+			<result name="updateProduct">/product/update_products_admin.jsp</result>
+			<result name="update">/product/admin_products_show.jsp</result>
+			<result name="del">/product/admin_products_show.jsp</result>
+			<result name="search">/product/products_search_show.jsp</result>
+			<result name="save">/product/admin_products_show.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+
+		<action name="order" class="orderaction">
+			<result name="user_all">/product/ordershow.jsp</result>
+			<result name="admin_all">/product/admin_ordershow.jsp</result>
+			<result name="finditem">/product/orderitem_show.jsp</result>
+			<result name="delorder">/product/admin_ordershow.jsp</result>
+			<result name="lookuse">/product/admin_orderuser.jsp</result>
+			<result name="delitem">/product/orderitem_show.jsp</result>
+			<result name="checkout">/product/checkoutsucc.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+
+		<action name="shopcart" class="shopcartaction">
+			<result name="find">/product/cartshow.jsp</result>
+			<result name="move">/product/cartshow.jsp</result>
+			<result name="add"></result>
+			<result name="checkout">/product/checkout.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+	</package>
+</struts>    

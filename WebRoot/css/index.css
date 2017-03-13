@@ -1,0 +1,398 @@
+/* CSS Document */
+body{
+	background-color: #fff; padding:0 0 0 0; 
+	margin-left: 100px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	}
+body, input, select, td, textarea{
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+a:link {
+	text-decoration: none;}
+a:visited {
+	text-decoration: none;}
+a:hover {
+	text-decoration: none;}
+a:active {
+	text-decoration: none;}
+.head {
+	width:800px; float:left;}
+*html .head {
+	width:800px; float:left;}
+.head1 {
+	width:900px; float:left;}
+.img {
+	float:left;}
+
+.p_wenzikuang1 {
+	width:570px; float:left;}
+.border {
+	 width:590px; height:2px; float:left; background-color:#FF0000; margin-top:5px;} 
+
+.left_bj_1{
+	background-image:url(../images/products_06.jpg); width:189px; height:500px; float:left;} 
+
+	
+#login_1 {
+	background-image:url(../images/lodaing_1_1.jpg); width:375px; height:86px; float:left;}
+#login_2 {
+	background-image:url(../images/lodaing_1_2.jpg); width:241px; height:86px; float:left;}
+#login_3 {
+	background-image:url(../images/lodaing_1_3.jpg); width:184px; height:86px; float:left;}
+#login_1_n {
+	width:370px; float:left;}
+#login_1_wz {
+	width:280px; float:left; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; color:#FFFFFF;
+	padding:8px 0 0 15px;}
+.login_2 {
+	background-image:url(../images/loading_2.jpg); width:241px; height:86px; float:left;}
+.login_3 {
+	background-image:url(../images/loading_3.jpg); width:284px; height:86px; float:left;}
+#bannerbj {
+	background-image:url(../images/home_7.jpg); width:54px; height:27px; float:left;}
+#bannerbj_1 {
+	background-image:url(../images/products3_8.jpg); width:54px; height:27px; float:left;}
+#bannerbj1 {
+	background-image:url(../images/home_11.jpg); width:46px; height:27px; float:left;}
+#bannerbj1_1 {
+	background-image:url(../images/products3_11.jpg); width:62px; height:27px; float:left;}
+#bannerbj2 {
+	background-image:url(../images/home_9.jpg); width:700px; height:27px; float:left;}
+#bannerbj2_1 {
+	background-image:url(../images/home_9.jpg); width:784px; height:27px; float:left;}
+.banner_wenzi {
+	font-family:Arial; font-size:12px; font-weight: bold; color:#FFFFFF; padding-top:5px;}
+/* common styling */
+/* set up the overall width of the menu div, the font and the margins */
+.banner_wenzi a:link {
+	text-decoration:none; color:#FFFFFF;}
+.banner_wenzi a:visited {
+	text-decoration:none; color:#FFFFFF;}
+.banner_wenzi a:hover {
+	text-decoration: none; color:#FFFFFF;}
+.banner_wenzi a:active {
+	text-decoration: none; color:#FFFFFF;}
+	
+	
+.menu {
+font-family: arial, sans-serif; font-size:12px; font-weight: bold; color:#FFFFFF;
+
+}
+/* remove the bullets and set the margin and padding to zero for the unordered list */
+.menu ul {
+padding:0; 
+margin:0;
+list-style-type: none;
+}
+/* float the list so that the items are in a line and their position relative so that the drop down list will appear in the right place underneath each list item */
+.menu ul li {
+float:left; 
+position:relative;
+}
+/* style the links to be 104px wide by 30px high with a top and right border 1px solid white. Set the background color and the font size. */
+.menu ul li a, .menu ul li a:visited {
+display:block; 
+text-align:center; 
+text-decoration:none; 
+width:100px; 
+height:25px; 
+color:#fff; 
+border:0px solid #fff;
+border-width:0px 0px 0 0;
+ 
+line-height:30px; 
+font-size:12px;
+}
+/* make the dropdown ul invisible */
+.menu ul li ul {
+display: none;
+}
+
+/* specific to non IE browsers */
+/* set the background and foreground color of the main menu li on hover */
+.menu ul li:hover a {
+color:#000; 
+background:#b3ab79;
+}
+/* make the sub menu ul visible and position it beneath the main menu list item */
+.menu ul li:hover ul {
+display:block; 
+position:absolute; 
+top:25px; 
+left:0; 
+width:100px;
+}
+/* style the background and foreground color of the submenu links */
+.menu ul li:hover ul li a {
+display:block; 
+background:#faeec7; 
+color:#000;
+}
+/* style the background and forground colors of the links on hover */
+.menu ul li:hover ul li a:hover {
+background:#dfc184; 
+color:#000;
+}
+
+
+/*left*/
+#left {
+	width:300px; float:left;}	
+.nrwenzi {
+	font-family:Arial; color:#3399FF; font-size:12px; float:left; width:217px; height:150px;}
+.li {
+	font-family:Arial; font-size:12px; color:#0A78CF; line-height:20px;}
+.li a:link {
+	text-decoration:none; color:#0596ED;}
+.li a:visited {
+	text-decoration:none; color:#0596ED;}
+.li a:hover {
+	text-decoration: underline; color:#CC0000;}
+.li a:active {
+	text-decoration: underline; color:#CC0000;}
+
+.lodaing_k {
+	width:230px; height:85px; float:left; padding-left:10px;}
+.lodaing_w {
+	font-family:Arial; font-size:11px; color:#FFFFFF; font-weight:bold; width:130px; float:left;								    margin:15px 0 0 15px;}
+.lodaing_ww {
+	font-family:Arial; font-size:11px; color:#FFFFFF; font-weight:bold; width:120px; float:left;								    margin:15px 0 0 0px;}
+.lodaing_i { padding:17px 0 0 7px; float:left; width:50px;}
+
+
+/*中间部分*/
+#middle {
+	width:280px; float:left; height:350px;
+	margin-top: 10px;
+	margin-left:5px;
+	}
+.md_wenzi {
+	float:left; font-family:Arial; font-size:12px; color:#3E3E3E; line-height:18px; }
+#md_wenzik {
+	width:280px; height:200px; float:left;}
+.md_wenzi a:link {
+	text-decoration:underline; color:#FF0000;}
+.md_wenzi a:visited {
+	text-decoration:none; color:#FF0000;}
+.md_wenzi a:hover {
+	text-decoration:underline; color:#FF0000;}
+.md_wenzi a:active {
+	text-decoration:underline; color:#FF0000;}
+/*right*/
+.right {
+	width:203px; float:left;}
+#miaobian {
+	background-image:url(../images/right_17.jpg);  width:203px; height:299px; float:left;}
+.miaobian1 {
+	background-image:url(../images/hm_26.jpg); width:203px; height:14px; float:left;}
+	
+.zuihou {
+	background-image:url(../images/home_26.jpg); width:800px; height:36px; float:left;}
+.zuihou_1{
+	background-image:url(../images/home_26.jpg); width:900px; height:36px; float:left;}
+.rt_wenzi {
+	font-family:Arial; font-size:12px; line-height:16px; width:150px; margin-left:15px;}
+.rt_img {
+	float:left; margin-left:140px;}
+
+.copyright {
+	font-family:Arial; font-size:12px; color:#000000; text-align: center; margin-top:5px;}
+.magin {
+	margin:80px 0 0 5px; float:left;}
+.padding {
+	padding-top:3px; float:left; width:800px;}	
+/*products*/
+.left_products {
+	width:198px; float:left;}
+.left_products1 {
+	width:220px; float:left;}
+.left_bj {
+	background-image:url(../images/products_06.jpg); width:189px; height:330px; float:left;}
+.left_bj1 {
+	background-image:url(../images/products_06.jpg); width:200px; height:300px; float:left;}
+.left_bj4 {
+	background-image:url(../images/products_06.jpg); width:188px; height:320px; float:left;}
+.left_bj2 {
+	background-image:url(../images/products_06.jpg); width:188px; height:400px; float:left; margin-top:5px;}
+.left_bj3 {
+	background-image:url(../images/products_06.jpg); width:188px; height:600px; float:left; margin-top:5px;}
+.right_proaducts {
+	width:400px; float:left; font-family:Arial; font-size:12px; color:#FF0000; margin-top:10px;}
+.p_ny {
+	width:400px; float:left; margin-top:20px;}
+.border {
+	background-image:url(../images/products1_06.jpg); width:550px; height:1px; float:left;}
+.p_wenzikuang {
+	width:500px; float:left;}
+/*search*/
+.biankuang_s {
+	width:560px; float:left; margin:30px 0px 0 0 ;}
+.f_s {
+	background-image:url(../images/search-products_3_05.jpg); width:510px; height:20px; float:left; margin-right:47px;}
+.f_s1 {
+	background-image:url(../images/search-products_07.jpg); width:6px; height:200px; float:left;}
+.f_s2 {
+	background-image:url(../images/search-products_09.jpg); width:6px; height:200px; float:left;}
+.f_s3 {
+	background-image:url(../images/search-product_09.jpg); width:540px; height:200px; float:left;}
+.biao_q {
+	font-family:Arial; font-size:12px; font-weight:bold; color:#023F82; width:100px; margin:5px 0 0 15px;}
+.pc_wenzi {
+	font-size:12px; font-weight:bold; color:#333333; margin:25px 0 0 10px; width:350px;}
+.pc_wenzi1 {
+	font-size:12px; font-weight:bold; color:#333333; margin:15px 0 0 10px; width:350px;}
+.margin {
+	margin-top:px; width:200px; float:left;}
+.lodaing_search { margin:20px 0 0 100px; float:left; width:50px;}
+.table_t {
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FF0000;}
+.table_t  a:link {
+	text-decoration:underline; color:#FF0000;}
+.table_t  a:visited {
+	text-decoration:none; color:#FF0000;}
+.table_t  a:hover {
+	text-decoration:underline; color:#FF0000;}
+.table_t  a:active {
+	text-decoration:underline; color:#FF0000;}
+.table_c {
+	color:#333333; font-weight:bold; font-size:12px;}
+.table_c a:link {
+	text-decoration:none; color:#CC0000;}
+.table_c a:visited {
+	text-decoration:none; color:#CC0000;}
+.table_c a:hover {
+	text-decoration: underline; color:#CC0000;}
+.table_c a:active {
+	text-decoration: underline; color:#CC0000;}
+.table_hui {
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#666666;}
+.table_hui_x {
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666666;}
+.table_hei {
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000;}
+.table_wz {
+	width:500px; height:240px; float:left; margin:0 0 0 20px;}
+/*Registration*/
+.right_zc {
+	float:left; width:500px; margin:10px 0 0 30px;}
+.right_progress {
+	float:left; margin:20px 0 0 0;}
+.ban {
+	background-image:url(../images/ban_03.jpg); width:213px; height:24px;}
+.ii {
+	background-image:url(../images/9web_4.jpg); width:200px; height:200px;}
+/*产品登陆*/
+.big_k {
+	width:180px; height:130px; float:left; margin:20px 0 0 0; background-color:#DEF3FE;}
+.loading_p {
+	font-family:Arial; font-size:12px; color:#0BA0FB; font-weight:bold; width:150px; float:left;								    margin:15px 0 0 15px;}
+.loading_l { padding:10px 0 0 7px; float:left; width:65px;}
+.loading_ll { padding:10px 0 0 15px; float:left; width:55px;}
+.STYLE1 {font-size: 16px;}
+
+
+
+
+/*tables*/
+
+/* the styles for displaytag */
+
+span{
+	margin:0;
+	padding:0;
+	font-size: 1em;
+	background-repeat:no-repeat;
+	list-style-type:none;
+}
+
+table.mars thead tr {
+  background-color: #fba661;
+}
+table.mars tr.even {
+  background-color: #e4f1fe;
+}
+table.mars tr.odd {
+  background-color: #f3f3f3;
+}
+
+table.mars td,table.mars th{
+	border: 1px dotted #fba661;
+	width: 800px;
+}
+
+
+table.mark td.tableCellError {
+	background-color: #d00;
+	color: #fff;
+}
+
+table.mark td.tableCellError {
+	background-color: #d00;
+	color: #fff;
+}
+
+span.pagebanner {
+	background-color:#f3f3f3 ;
+	border: 0px dotted ;
+	padding: 2px 4px 2px 4px;
+	width: 79%;
+	margin-top: 10px;
+	display:block;
+	border-bottom: none;
+}
+span.pagelinks {
+	background-color:#f3f3f3 ;
+	border: 0px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 79%;
+	display:block;
+	border-top: none;
+	margin-bottom: -5px;
+}
+span.export {
+	padding: 0 4px 1px 20px;
+	display:inline; display:inline-block;
+	cursor: pointer;
+}
+
+
+
+
+
+/* test styles */
+
+
+table.mars thead tr {
+  background-color: #6693D4;
+}
+table.mars tr.even {
+  background-color: #C3D1DA;
+}
+table.mars tr.odd {
+  background-color: #EEF9Fe;
+}
+
+
+
+
+table.mark td.tableCellError {
+	background-color: #d00;
+	color: #fff;
+}
+
+table.sublist {
+	margin: 0 0 0 0;
+	width: 100%;
+}
+table.sublist td, table.sublist th {
+	width: 50%;
+}
+
+#middlebody {
+	width:780px; float:left; height:340px;
+	margin-top: 20px;
+	
+	}

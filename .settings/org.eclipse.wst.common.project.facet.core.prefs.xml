@@ -1,0 +1,13 @@
+<root>
+  <facet id="me.spring">
+    <node name="libprov">
+      <attribute name="config-id" value="me.spring_2.5"/>
+      <attribute name="copy-tlds" value="false"/>
+      <attribute name="nested-config-me.spring_2.5-javaconfig" value="none"/>
+      <attribute name="nested-config-me.spring_2.5-security" value="none"/>
+      <attribute name="nested-config-me.spring_2.5-webflow" value="none"/>
+      <attribute name="provider-id" value="me-spring-library-provider"/>
+      <attribute name="version-id" value="2.5"/>
+    </node>
+  </facet>
+</root>

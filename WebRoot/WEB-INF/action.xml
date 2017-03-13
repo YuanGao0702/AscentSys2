@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="useraction" class="struts.action.UserAction">
+		<property name="um">
+			<ref bean="usermanager" />
+		</property>
+	</bean>
+
+	<bean id="loginaction" class="struts.action.LoginAction">
+		<property name="lm">
+			<ref bean="loginmanager" />
+		</property>
+	</bean>
+
+	<bean id="productaction" class="struts.action.ProductAction">
+		<property name="pm">
+			<ref bean="productmanager" />
+		</property>
+	</bean>
+
+	<bean id="orderaction" class="struts.action.OrderAction">
+		<property name="om">
+			<ref bean="ordermanager" />
+		</property>
+		<property name="um">
+			<ref bean="usermanager" />
+		</property>
+	</bean>
+
+	<bean id="shopcartaction" class="struts.action.ShopCartAction">
+		<property name="pm">
+			<ref bean="productmanager" />
+		</property>
+	</bean>
+
+</beans>

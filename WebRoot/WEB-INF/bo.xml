@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="loginmanager" class="spring.boimpl.LoginManagerImpl">
+		<property name="ud">
+			<ref bean="userdao" />
+		</property>
+	</bean>
+
+	<bean id="usermanager" class="spring.boimpl.UserManagerImpl">
+		<property name="ud">
+			<ref bean="userdao" />
+		</property>
+	</bean>
+
+	<bean id="productmanager" class="spring.boimpl.ProductManagerImpl">
+		<property name="pd">
+			<ref bean="productdao" />
+		</property>
+	</bean>
+
+	<bean id="ordermanager" class="spring.boimpl.OrderManagerImpl">
+		<property name="od">
+			<ref bean="orderdao" />
+		</property>
+		<property name="oid">
+			<ref bean="orderitemdao" />
+		</property>
+		<property name="pd">
+			<ref bean="productdao" />
+		</property>
+	</bean>
+
+</beans>
